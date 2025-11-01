@@ -3,6 +3,32 @@
 **Project Name:** Data-Ledger **Application Date:** November 1, 2025 **Applying Team/Organization:** Data-Ledger Team **Contact Information:** \*@gmail.com
 
 ---
+- [1. Project Summary](#1-project-summary)
+  - [1.1. Overview](#11-overview)
+  - [1.2. Problem Statement](#12-problem-statement)
+  - [1.3. Solution: LedgerSC](#13-solution-ledgersc)
+- [2. Technical Implementation](#2-technical-implementation)
+  - [2.1. Smart Contract (SC) Details](#21-smart-contract-sc-details)
+  - [2.2. Smart Contract Constants](#22-smart-contract-constants)
+  - [2.3. Smart Contract Functions and Operation](#23-smart-contract-functions-and-operation)
+    - [function record(payload)](#function-recordpayload)
+    - [function distribute()](#function-distribute)
+  - [2.4. Application Data Flow](#24-application-data-flow)
+    - [2.4.1. Flow Chart](#241-flow-chart)
+  - [2.5. SC Capacity Extension Mechanism](#25-sc-capacity-extension-mechanism)
+- [3. Team Overview](#3-team-overview)
+- [4. Milestones and Funding Request](#4-milestones-and-funding-request)
+- [5. Budget and Expenses](#5-budget-and-expenses)
+  - [5.1. Development Costs](#51-development-costs)
+  - [5.2. Operational Expenses](#52-operational-expenses)
+- [6. Sustainability and Revenue Model](#6-sustainability-and-revenue-model)
+  - [6.1. Revenue Distribution](#61-revenue-distribution)
+- [7. Commitment and Open-Source](#7-commitment-and-open-source)
+  - [7.1. Project Commitment](#71-project-commitment)
+  - [7.2. Open-Source Commitment](#72-open-source-commitment)
+- [8. Conclusion](#8-conclusion)
+
+---
 
 ## 1\. Project Summary
 
@@ -113,6 +139,9 @@ This flow illustrates how an application integrates with **LedgerSC**:
 
 This clear separation of concerns ensures **LedgerSC** remains universal while granting applications full flexibility over their data schema.
 
+#### 2.4.1. Flow Chart  
+![Flow chart](diagram.png)
+
 2.5. SC Capacity Extension Mechanism
 
 The Qubic Network imposes a fixed data capacity limit of **1024MB** per Smart Contract (SC), with a maximum transaction payload size of **1024 bytes**. Given these constraints, the initial LedgerSC is estimated to accommodate approximately **1 million** transaction payloads before reaching its capacity limit.
@@ -212,9 +241,9 @@ All Smart Contract code for the LedgerSC project will be released as **open-sour
 
 ---
 
-## 7\. Conclusion
+## 8\. Conclusion
 
-The LedgerSC project offers a technically sound and urgently needed solution that drastically lowers the entry barrier for applications seeking immutable, verifiable record-keeping on the Qubic Network. By abstracting the complexity and risk of custom SC development into a simple, fee-based service, LedgerSC will significantly accelerate the adoption of the Qubic Network by a diverse range of applications.
+The LedgerSC project offers a technically sound and needed solution that drastically lowers the entry barrier for applications seeking immutable, verifiable record-keeping on the Qubic Network. By abstracting the complexity and risk of custom SC development into a simple, fee-based service, LedgerSC will significantly accelerate the adoption of the Qubic Network by a diverse range of applications.
 
 We believe that with the support of the Qubic Incubation Program, LedgerSC will become a foundational utility, providing a faster, more flexible, transparent, and efficient experience for developers, and delivering long-term value to the Qubic ecosystem.
 
